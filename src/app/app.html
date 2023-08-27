@@ -1,0 +1,29 @@
+<template>
+  <h1>${message}</h1>
+  <!-- !!This UI for to understand compose element and model.bind and view="" and view-model="" and accept the model.bind ref data into related view-model -->
+  <!-- <compose view-model="../compose-element/events/events"></compose>
+  <compose view-model="../compose-element/sponsors/sponsor"></compose>
+
+  <compose view="../compose-element/events/events.html"></compose>
+  <compose view="../compose-element/sponsors/sponsor.html"></compose> 
+
+  <compose
+    view="../compose-element/events/events.html"
+    view-model="../compose-element/events/events"
+  ></compose>
+  <compose
+    view="../compose-element/sponsors/sponsor.html"
+    view-model="../compose-element/sponsors/sponsor"
+  ></compose>
+  -->
+
+  <!-- !! This is for understand how DI works -->
+  <compose
+    view="../dependency-injection/events/events.html"
+    view-model="../dependency-injection/events/events"
+  ></compose>
+  <compose
+    view="../dependency-injection/sponsors/sponsor.html"
+    view-model="../dependency-injection/sponsors/sponsor"
+  ></compose>
+</template>

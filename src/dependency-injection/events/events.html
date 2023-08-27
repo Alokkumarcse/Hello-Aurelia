@@ -1,0 +1,18 @@
+<template>
+  <h2>Event: ${message}</h2>
+  <div repeat.for="task of tasks">
+    <compose
+      model.bind="task"
+      view-model="../event/event"
+      view="../test.html"
+    ></compose>
+  </div>
+
+  <div repeat.for="task of tasks">
+    <compose
+      model.bind="task"
+      view-model="../event/event"
+      view="../event/event.html"
+    ></compose>
+  </div>
+</template>
